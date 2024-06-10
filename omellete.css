@@ -1,0 +1,83 @@
+body{
+    padding-left: 270px;
+    padding-right: 200px;
+    background-color: rgba(255, 228, 196, 0.619);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.nutri{
+    display: flex;
+    gap: 181px;
+}
+.fat{
+    display: flex;
+    gap: 215px;
+    padding-bottom: 20px;
+}
+.prot{
+    display: flex;
+    gap: 189px;
+}
+.carbs{
+    display: flex;
+    gap: 198px;
+}
+.all{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: fit-content;
+    
+}
+.sor{
+    font-size: 40px;
+    font-weight: 700px;
+    font-family: cursive;
+}
+.iig{
+    color:brown;
+    font-weight: 900;
+    font-size: 20px;
+}
+.rest{
+    padding-left: 10px;
+}
+.tpc{
+    border: 1px solid  rgba(255, 228, 196, 0.346) ;
+    background-color: rgba(216, 112, 147, 0.145) ;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.pt{
+    color: rgb(216, 112, 147);
+    font-weight: 900;
+}
+
+img{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+@media (max-width: 480px) {
+    body{
+        background-color: white;
+        padding: 0px;
+        width: 480px;
+    }
+    img{
+        height: 300px;
+        width: 480px;
+    }
+    .all{
+        padding: 0px;
+    }
+    .easy{
+        width: 480px;
+    }
+    .tpc{
+        padding: 0px;
+    }
+}
